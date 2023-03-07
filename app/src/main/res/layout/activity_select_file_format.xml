@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectFileFormatActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/radioGroup1"
+        android:layout_alignParentTop="true"
+        android:text="Please select the file format to save."
+        android:visibility="gone" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="29dp"
+        android:visibility="gone">
+
+        <RadioButton
+            android:id="@+id/radioBitmap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Bitmap" />
+
+        <RadioButton
+            android:id="@+id/radioWSQ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WSQ" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_alignLeft="@+id/radioGroup1"
+        android:layout_below="@+id/radioGroup1"
+        android:layout_marginTop="24dp">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="File name: " />
+        <EditText
+            android:id="@+id/editFileName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10" >
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/linearLayout1"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginTop="24dp"
+        android:text="OK" />
+
+    <TextView
+        android:id="@+id/textMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonOK"
+        android:layout_below="@+id/buttonOK"
+        android:layout_marginTop="24dp"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/etxtName"
+        android:layout_width="220dp"
+        android:layout_height="54dp"
+        android:layout_above="@+id/etxtPhone"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="5dp"
+        android:ems="10"
+        android:hint="Tên"
+        android:inputType="textPersonName"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/etxtBirth"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="85dp"
+        android:ems="10"
+        android:hint="Ngày Sinh"
+        android:inputType="textPersonName"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/etxtAddress"
+        android:layout_width="220dp"
+        android:layout_height="48dp"
+        android:layout_above="@+id/etxtBirth"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="4dp"
+        android:ems="10"
+        android:hint="Địa Chỉ"
+        android:inputType="textPersonName"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/etxtPhone"
+        android:layout_width="220dp"
+        android:layout_height="51dp"
+        android:layout_above="@+id/etxtAddress"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="0dp"
+        android:ems="10"
+        android:hint="SĐT"
+        android:inputType="textPersonName"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/btnAddE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="97dp"
+        android:layout_marginBottom="16dp"
+        android:text="Thêm NV" />
+
+    <TextView
+        android:id="@+id/tvEid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible" />
+
+</RelativeLayout>

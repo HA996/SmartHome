@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "460292533701",
+    "project_id": "smartstudy-techwiz",
+    "storage_bucket": "smartstudy-techwiz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460292533701:android:dc7518ad450af760c32fac",
+        "android_client_info": {
+          "package_name": "com.bme.smarthome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460292533701-haiu1f28jl38autrgjlfflstst6udv5n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuVBMRSiLd6Hn6luGVmuc081Sd8ccN9l8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "460292533701-haiu1f28jl38autrgjlfflstst6udv5n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460292533701:android:3bb14fa21d75e08cc32fac",
+        "android_client_info": {
+          "package_name": "com.smartstudy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460292533701-haiu1f28jl38autrgjlfflstst6udv5n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuVBMRSiLd6Hn6luGVmuc081Sd8ccN9l8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "460292533701-haiu1f28jl38autrgjlfflstst6udv5n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
